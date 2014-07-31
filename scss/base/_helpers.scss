@@ -1,0 +1,6 @@
+.fade-item-in {
+		visibility: visible;
+		@include transition-property(visibility);
+	  @include transition-duration(2s);
+	  @include transition-timing-function(ease-in);
+	}

@@ -1,0 +1,174 @@
+.touch {
+    .home-nav {
+        display: none !important;
+    }
+    .intro-block1 {
+        @include ipad(intro_mobile);
+    }
+
+    .pastors {
+        @include ipad(pastors_mobile);
+    }
+
+    .mission {
+        @include ipad(mission_mobile);
+    }
+
+    .values {
+        @include ipad(values_mobile);
+    }
+    .event {
+        @include ipad(belong_mobile);
+    }
+    .community_groups {
+        @include ipad(community_mobile);
+    }
+    .connect {
+        @include ipad(connect_mobile);
+    }
+    .relationships {
+        @include ipad(relationships_mobile);
+    }
+    .kids {
+        @include ipad(kids_mobile);
+    }
+    .kids_beliefs {
+        @include ipad(kids_beliefs_mobile);
+    }
+    .kids_rewarding {
+        @include ipad(kids_rewarding_mobile);
+    }
+    .college_block_1 {
+        @include ipad(collegecover_mobile);
+    }
+    .college_block_3 {
+        @include ipad(college3_mobile);
+    }
+    .college_block_5 {
+        @include ipad(college5_mobile);
+    }
+    .women_block_1 {
+        @include ipad(womenscover_mobile);
+    }
+    .women_block_3 {
+        @include ipad(womens3_mobile);
+    }
+    .women_block_5 {
+        @include ipad(womens5_mobile);
+    }
+    .generosity_block_1 {
+        @include ipad(generositycover_mobile);
+    }
+    .generosity_block_3 {
+        @include ipad(generosity3_mobile);
+    }
+    .generosity_block_5 {
+        @include ipad(generosity5_mobile);
+    }
+    .current-series {
+        @include ipad(sermon_graphic_mobile);
+    }
+    .not-religious-3 {
+        @include ipad(not_religious3_mobile);
+    }
+    .not-religious-5 {
+        @include ipad(not_religious5_mobile);
+    }
+    .not-religious-7 {
+        @include ipad(not_religious7_mobile);
+    }
+    .venue_change {
+        @include ipad(venue_change_mobile);
+    }
+    .announcements {
+        @include ipad(announcements_mobile);
+    }
+
+}
+
+@media #{$small} {
+    .touch {
+        .intro-block1 {
+            @include ipad(home_port_bg);
+        }
+
+        .pastors {
+            @include ipad(pastors_port_bg);
+        }
+
+        .mission {
+            @include ipad(mission_port_bg);
+        }
+
+        .values {
+            @include ipad(values_port_bg);
+        }
+        .event {
+            @include ipad(belong_port_bg);
+        }
+        .community_groups {
+            @include ipad(community_port_bg);
+        }
+        .connect {
+            @include ipad(connect_port_bg);
+        }
+        .relationships {
+            @include ipad(relationships_port_bg);
+        }
+        .kids {
+            @include ipad(kids_port_bg);
+        }
+        .kids_beliefs {
+            @include ipad(kids_beliefs_port_bg);
+        }
+        .kids_rewarding {
+            @include ipad(kids_rewarding_port_bg);
+        }
+        .college_block_1 {
+            @include ipad(collegecover_port_bg);
+        }
+        .college_block_3 {
+            @include ipad(college3_port_bg);
+        }
+        .college_block_5 {
+            @include ipad(college5_port_bg);
+        }
+        .women_block_1 {
+            @include ipad(womenscover_port_bg);
+        }
+        .women_block_3 {
+            @include ipad(womens3_port_bg);
+        }
+        .women_block_5 {
+            @include ipad(womens5_port_bg);
+        }
+        .generosity_block_1 {
+            @include ipad(generositycover_port_bg);
+        }
+        .generosity_block_3 {
+            @include ipad(generosity3_port_bg);
+        }
+        .generosity_block_5 {
+            @include ipad(generosity5_port_bg);
+        }
+        .current-series {
+            @include ipad(sermon_graphic_port_bg);
+        }
+        .not-religious-3 {
+            @include ipad(not_religious3_port_bg);
+        }
+        .not-religious-5 {
+            @include ipad(not_religious5_port_bg);
+        }
+        .not-religious-7 {
+            @include ipad(not_religious7_port_bg);
+        }
+        .venue_change {
+            @include ipad(venue_change_port_bg);
+        }
+        .announcements {
+            @include ipad(announcements_port_bg);
+        }
+    }
+
+}

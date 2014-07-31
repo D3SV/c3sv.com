@@ -1,0 +1,308 @@
+@media #{$small} {
+
+
+	.top-bar .name {
+		width: 159px;
+		height: 43px;
+
+		}
+
+	.name h1 a {
+		//text-indent: 9999px;
+		background-image: url('../logo.png');
+		background-size: 159px 43px;
+		text-indent: -99999px;
+		}
+	.l-header {
+//		padding-top: emCalc(20px);
+		}
+.top-bar {
+	height: emCalc(50px);
+	.foundicon-torso {
+		font-size: 20px;
+		}
+	}
+	.top-bar-section ul li > a {
+		text-transform: uppercase;
+		font-family: $links;
+		background-color: white;
+		&:not(.button):hover {
+				background-color:transparent ;
+				}
+		}
+	.top-bar-section ul li.active > a {
+		background-color: white;
+		}
+	.top-bar-section ul li:hover > a {
+		background-color: transparent;
+		}
+
+/*===== Blog code =====*/
+	.c3-2col, .c3-2col-stacked {
+		.group-left {
+			@include grid-column(3);
+			}
+		.group-right {
+			@include grid-column(9);
+			}
+		}
+	.triptych-first {
+		@include grid-column(4);
+		}
+	.triptych-middle {
+		@include grid-column(4);
+		}
+	.triptych-last {
+		@include grid-column(4);
+		}
+
+	.footer-first {
+		@include grid-column(2);
+		}
+	.footer-second {
+		@include grid-column(3);
+		}
+	.footer-third {
+		@include grid-column(4);
+		}
+	.footer-fourth {
+		@include grid-column(3, $collapse:true);
+		}
+
+	.view .date-nav-wrapper {
+		.date-prev, .date-next {
+			top:0px;
+			}
+		}
+	.ui-dialog .ui-dialog-content {
+		width: 100% !important;
+		}
+	#mediaBrowser {
+		width: 100% !important;
+	}
+	.intro-block1 {
+		.logo {
+			@include grid-column(8, $center:true);
+			}
+		.social-icons {
+			@include grid-column(6, $center:true);
+			}
+		}
+
+	.pastor-description {
+		@include grid-column(6);
+
+			.header-wrapper {
+				h2 {
+					font-size: emCalc(24);;
+					color: #5D6F72;
+					}
+				h3 {
+					font-size: emCalc(22);
+					color: #5D6F72;
+					}
+				p {
+					font-size:emCalc(15);
+					}
+				}
+		}
+	.mission {
+
+		.mission-title {
+			@include grid-column(5, $center:true);
+			font-size: emCalc(30);
+			}
+
+		.statement {
+					font-size: emCalc(75);
+					}
+		.verse {
+			font-size: emCalc(15);
+			}
+		}
+%sml {
+	h2 {
+		font-size: emCalc(40);
+		}
+	h3 {
+		font-size: emCalc(30);
+		}
+	p {
+		font-size: emCalc(20);
+		}
+	}
+
+	.basic-block {
+			@extend %sml;
+		}
+	.secondary-block {
+			@extend %sml;
+		}
+	.find-out {
+			img {
+				width: 100px;
+				}
+			}
+
+	.ministries {
+		.ministry-community {
+			text-align: right;
+			@include grid-column(6);
+			}
+		.ministry-kids {
+			@include grid-column(6);
+			}
+		.ministry-women {
+			text-align: left;
+			@include grid-column(6);
+			float: right;
+			}
+		.ministry-college {
+			@include grid-column(6);
+			text-align: right;
+			}
+		}
+
+	.values {
+		p {
+			font-size: emCalc(25);
+			}
+		}
+	.event {
+		h2 {
+			font-size: emCalc(160);
+			}
+		}
+	.media {
+		.side1 {
+			@include grid-column(6);
+			}
+		.side2 {
+			@include grid-column(8);
+			margin-top: emCalc(15);
+			}
+		}
+
+	.kids_rewarding {
+		p {
+			font-size: emCalc(40);
+			}
+		}
+	.headline {
+		h2 {
+			font-size: emCalc(50);
+			}
+		}
+	.generosity {
+
+			.item {
+				min-width: emCalc(150);
+				max-width: emCalc(200);
+				}
+		.side1 {
+			@include grid-column(6);
+			padding-top: emCalc(100);
+			}
+		.side2 {
+			@include grid-column(6);
+			}
+
+		}
+	.page-contact {
+		.contact-address {
+			@include grid-column(6);
+			}
+		.basic-block {
+				padding: emCalc(20);
+				}
+		}
+	.current-series .block-content{
+			.groups {
+				right: emCalc(10);
+				}
+		}
+
+	.nav-wrapper .home-nav .nav_bar {
+			ul li a {
+				margin: 0 emCalc(15);
+				font-size: emCalc(15);
+			}
+		}
+
+	.mini-logo {
+		span {
+			background: url('../mini-logo.png') no-repeat 5px center;
+			background-size: 32px;
+			margin-right: 10px;
+			}
+		}
+
+	.groups {
+		width: emCalc(127);
+		height: emCalc(127);
+//		margin:emCalc(20) 0  emCalc(20) 10% ;
+
+		.group-initial-state {
+
+			top: emCalc(37);
+			.field-name-field-init {
+				width: emCalc(127);
+				}
+			h2 {
+				font-size: emCalc(19);
+				}
+			h3 {
+				margin-top: emCalc(-9);
+				font-size: 12px;
+				}
+			}
+		.group-hover-state {
+			top: emCalc(32);
+			width: emCalc(127);
+
+			h3 {
+				font-size: emCalc(13);
+				}
+			h4 {
+				font-size: emCalc(15);
+				}
+
+			}
+		}
+	.home-generosity, .serve {
+
+		.group-initial-state {
+
+			h3 {
+				font-size: 33px;
+				width: 127px;
+				margin-top: 0;
+
+			}
+
+		}
+	}
+
+	.serve {
+
+		.group-initial-state {
+
+				h3 {
+					margin-top: 5px;
+					width: 127px;
+					font-size: emCalc(15);
+				}
+			}
+		}
+
+	.current-series .block-content .groups {
+
+				h3 {
+					font-size:emCalc(16);
+					margin-top: emCalc(0);
+				}
+		}
+
+
+
+	}

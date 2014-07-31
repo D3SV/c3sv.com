@@ -1,0 +1,181 @@
+@media #{$medium} {
+	.pastor-description {
+			.header-wrapper {
+				h2 {
+					font-size: emCalc(29);;
+					color: #5D6F72;
+					}
+				h3 {
+					font-size: emCalc(19);
+					color: #5D6F72;
+					}
+				p {
+					font-size:emCalc(18);
+					}
+				}
+		}
+
+	.mission {
+			.mission-title {
+					font-size: emCalc(30);
+					}
+			.statement {
+						font-size: emCalc(75);
+						line-height: 1.3;
+						}
+			.verse {
+				font-size: emCalc(15);
+				line-height: 1.5;
+				}
+			}
+
+	/* MEDIUM */
+	%med {
+		h2 {
+			font-size: emCalc(60);
+			}
+
+		h3 {
+			font-size: emCalc(45);
+		}
+		p {
+			font-size: emCalc(30);
+		}
+	}
+
+	.basic-block {
+				@extend %med;
+		}
+	.secondary-block {
+		@extend %med;
+		}
+
+	.find-out {
+
+		img {
+			width: 150px;
+			}
+		}
+
+	.values {
+		p {
+			font-size: emCalc(36);
+			line-height: 1.8;
+			}
+
+		}
+
+	.headline {
+		h2 {
+			font-size: emCalc(85);
+			}
+		}
+
+
+.nav-wrapper .home-nav .nav_bar {
+	@include grid-column(9, $center:true);
+		ul li a {
+			margin: 0 emCalc(25);
+			font-size: emCalc(15);
+		}
+	}
+
+		.mini-logo {
+			span {
+				background: url('../mini-logo.png') no-repeat 5px center;
+				background-size: 40px;
+				margin-right: 10px;
+				}
+			}
+
+	.groups {
+		width: emCalc(170);
+		height: emCalc(170);
+		margin:emCalc(20) 0  emCalc(20) 10% ;
+
+		.group-initial-state {
+
+			top: emCalc(40);
+			.field-name-field-init {
+				width: emCalc(170);
+				}
+			h2 {
+				font-size: emCalc(31);
+				}
+			h3 {
+				margin-top: emCalc(-20);
+				}
+			}
+		.group-hover-state {
+			top: emCalc(48);
+			width: emCalc(170);
+
+			h3 {
+				font-size: emCalc(18);
+				}
+			h4 {
+				font-size: emCalc(22);
+				}
+
+			}
+		}
+	.home-generosity, .serve {
+
+		.group-initial-state {
+
+			h3 {
+				top: 15px;
+				font-size: 40px;
+				width: 170px;
+				margin-top: 15px;
+
+			}
+
+		}
+	}
+
+	.serve {
+		.headline {
+			border-color: $svgreen !important;
+			margin-bottom: emCalc(50);
+
+			h2 {
+				color: $svgreen;
+				display: block;
+				}
+			}
+		p {
+			display: block;
+			clear: both;
+			font-size: emCalc(24);
+			color: $commonGrey;
+			}
+		.group-initial-state {
+
+				h3 {
+					color: white !important;
+					display: block;
+					margin-top: 15px;
+					width: 170px;
+					font-size: emCalc(22);
+				}
+			}
+		}
+
+
+
+	.current-series .block-content .groups {
+
+				h3 {
+					font-size:emCalc(23);
+					margin-top: emCalc(0);
+				}
+		}
+
+
+
+
+
+
+
+	}

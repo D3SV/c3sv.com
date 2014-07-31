@@ -1,0 +1,25 @@
+// Common abstract classes to extend or parametrics are stored here.
+
+// Example parametrics.
+// ------------------------------------------------------
+// %font-FONTNAME   {}
+// %font-sans-serif { font-family: sans-serif; }
+// %font-serif      { font-family: serif; }
+
+$nav-color: #8ea8ac;
+$svgreen:#d7df21;
+$commonGrey:#969797 !important;
+
+
+.fadeOut {
+	display: none !important;
+	@include transition-property(display);
+  @include transition-duration(1s);
+  @include transition-timing-function(ease-out);
+	}
+.fadeIn {
+		display: block !important;
+		@include transition-property(display);
+	  @include transition-duration(1s);
+	  @include transition-timing-function(ease-in);
+	}

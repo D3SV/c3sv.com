@@ -1,0 +1,105 @@
+/*===Extenders items ===*/
+
+.no-touch {
+
+    .front .l-header {
+        display: none !important;
+    }
+
+    .intro-block1 {
+        @include backgroundImage(block1_bg);
+        min-height: emCalc(820);
+    }
+
+    .pastors {
+        @include backgroundImage(pastors_bg);
+    }
+
+    .pastor-description {
+        margin: emCalc(200) 0;
+    }
+    .mission {
+        @include backgroundImage(mission_bg);
+        .verse {
+            margin-top: emCalc(20);
+            margin-bottom: emCalc(60);
+        }
+    }
+    .mission-title {
+        margin-top: emCalc(60);
+        margin-bottom: emCalc(20);
+    }
+
+    .values {
+        @include backgroundImage(value_bg);
+    }
+    .event {
+        @include backgroundImage(belong_bg);
+    }
+    .community_groups {
+        @include backgroundImage(community_bg);
+    }
+    .connect {
+        @include backgroundImage(connect_bg);
+    }
+    .relationships {
+        @include backgroundImage(relationships_bg);
+    }
+    .kids {
+        @include backgroundImage(kids_bg);
+    }
+    .kids_beliefs {
+        @include backgroundImage(kids_beliefs_bg);
+    }
+    .kids_rewarding {
+        @include backgroundImage(kids_rewarding_bg);
+    }
+    .college_block_1 {
+        @include backgroundImage(collegecover_bg);
+    }
+    .college_block_3 {
+        @include backgroundImage(college3_bg);
+    }
+    .college_block_5 {
+        @include backgroundImage(college5_bg);
+    }
+    .women_block_1 {
+        @include backgroundImage(womenscover_bg);
+    }
+    .women_block_3 {
+        @include backgroundImage(womens3_bg);
+    }
+    .women_block_5 {
+        @include backgroundImage(womens5_bg);
+    }
+    .generosity_block_1 {
+        @include backgroundImage(generositycover_bg);
+    }
+    .generosity_block_3 {
+        @include backgroundImage(generosity3_bg);
+    }
+    .generosity_block_5 {
+        @include backgroundImage(generosity5_bg);
+    }
+    .current-series {
+        @include backgroundImage(sermon_graphic_bg);
+    }
+    .not-religious-3 {
+        @include backgroundImage(not_religious3_bg);
+    }
+    .not-religious-5 {
+        @include backgroundImage(not_religious5_bg);
+    }
+    .not-religious-7 {
+        @include backgroundImage(not_religious7_bg);
+    }
+
+    .venue_change {
+        @include backgroundImage(venue_change_bg);
+    }
+
+    .announcements {
+        @include backgroundImage(announcements_bg);
+    }
+
+}

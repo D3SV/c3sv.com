@@ -1,0 +1,20 @@
+// Docs: http://foundation.zurb.com/docs/components/type.html
+// Before adding styles be sure to modify variables.
+h1, h2, h3 , h4, h5, h6 {
+//	text-transform: uppercase !important;
+	}
+u, .standout {
+	color:$svgreen;
+	text-decoration: none !important;
+	}
+.active {
+	color:$svgreen !important;
+	}
+.title {}
+.node-title {}
+.page-title {}
+.block-title {}
+
+.item-list {}
+
+
